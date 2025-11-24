@@ -57,7 +57,9 @@ appium
 cd appium-tests
 python3 login_test.py
 ```
-
+## 3. Running Espresso Tests
+1. Due to espresso being built into android Studio, you only need to access test file found in src/androidTest/java/com.example.android_testing/espressotest.kt or select loginScreentest and run found at the top of the program.
+2. for devices make sure to select a device running android 13.0 due to espresso compilation errors with never versions not yet configuired
 
    
    
